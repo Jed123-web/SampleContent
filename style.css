@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.meme {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.image {
+    background: #facc15;
+    font-size: 100px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.top {
+    background: black;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.bottom {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.error {
+    background: #dc2626;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+}
